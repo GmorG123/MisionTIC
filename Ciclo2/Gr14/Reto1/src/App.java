@@ -6,3 +6,4 @@ public class App {
         System.out.println(becaUniversitaria2.compararInversion());
     }
 }
+
