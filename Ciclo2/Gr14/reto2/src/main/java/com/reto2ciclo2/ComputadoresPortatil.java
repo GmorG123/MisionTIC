@@ -34,7 +34,7 @@ public class ComputadoresPortatil extends Computadores{
             adicion += 50.0;
         }
         
-        //adicion += getPrecioBase();
+        //adicion += /* calcularConsumoW_peso() */  getPrecioBase();
         return adicion;
     }
 }

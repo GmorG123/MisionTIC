@@ -25,12 +25,12 @@ public class ComputadoresMesa extends Computadores{
 
     public double calcularPrecio(){
         double adicion = super.calcularPrecio();
-
-        if(almacenamiento > 100.0){
-            adicion += 50.0;
+        if(almacenamiento > 100){
+            adicion += 50;
         }/* else{
             adicion += ALMACENAMIENTO_BASE;
         } */
+        //adicion = calcularConsumoW_peso() + getPrecioBase();
         return adicion;
     }
 }
